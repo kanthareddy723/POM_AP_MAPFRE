@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.GenericFunctions.TestNGListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.TestCases.TC_02_Create_New_Client">
+        <methods>
+          <include name="Create_New_Client"/>
+        </methods>
+      </class> <!-- com.TestCases.TC_02_Create_New_Client -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
